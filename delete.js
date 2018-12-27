@@ -9,7 +9,6 @@
             confirmDeleteButton.click();
             // wait for the post to disappear
             setTimeout(function () {
-                // the post was deleted, no need to increment the skip counter
                 deletePost()
             }, 4000)
         }, 100)
